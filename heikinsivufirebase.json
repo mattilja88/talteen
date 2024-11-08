@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/yhteystiedot",
+        "destination": "/yhteystiedot.html"
+      },
+      {
+        "source": "/esiintyja",
+        "destination": "/esiintyja.html"
+      },
+      {
+        "source": "/settilista",
+        "destination": "/settilista.html"
+      },
+      {
+        "source": "/keikat",
+        "destination": "/keikat.html"
+      },
+      {
+        "source": "/opetus",
+        "destination": "/opetus.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
